@@ -1,4 +1,8 @@
+
 FROM openjdk:17-jdk-slim
 EXPOSE 7085
-COPY target/MS-Clientes-0.0.1-SNAPSHOT.jar ntt-customer-person.jar
-ENTRYPOINT ["java", "-jar", "/devsu-customer-person.jar"]
+WORKDIR /app
+# Copia el JAR desde la ubicación correcta
+COPY out/artifacts/MS_Clientes_jar/MS-Clientes.jar app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]

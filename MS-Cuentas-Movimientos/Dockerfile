@@ -1,4 +1,8 @@
+
 FROM openjdk:17-jdk-slim
 EXPOSE 7086
-COPY target/MS_Cuentas_Movimientos-0.0.1-SNAPSHOT.jar ntt-account-movement.jar
-ENTRYPOINT ["java", "-jar", "/devsu-account-movement.jar"]
+WORKDIR /app
+# Copia el JAR desde la ubicación correcta
+COPY out/artifacts/MS_Cuentas_Movimientos_jar/MS-Cuentas-Movimientos.jar app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
