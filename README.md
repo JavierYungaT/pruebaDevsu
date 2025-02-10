@@ -1,6 +1,6 @@
 # Prueba Devsu
 
-Se desarrollarón dos microservicios según las especificaciones solicitadas, las mismas que se detallan a continuación;
+Se desarrollaron dos microservicios según las especificaciones solicitadas, las mismas que se detallan a continuación;
 
 CRUD para Microservicios de clientes-personas y de cuentas-movimientos.
 
