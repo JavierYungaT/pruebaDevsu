@@ -38,3 +38,5 @@ Para levantar la aplicación mediante docker, es necesario asegurarse que ningun
 Se debe correr con el siguiente comando; 
 
 docker-compose up -d o docker-compose up
+
+![](https://github.com/JavierYungaT/pruebaDevsu/blob/89b12b325425cf1cbfbe13d0ccedfa86ee50b0ef/imagen/Captura%20de%20pantalla%202025-02-10%20a%20la(s)%2011.22.22%E2%80%AFa.%C2%A0m..png)
